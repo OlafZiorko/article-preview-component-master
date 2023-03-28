@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="card">
+      <header class="card__header">
+        <img src="./images/drawers.jpg" alt="drawers image" />
+      </header>
+
+      <section class="card__section">
+        <article class="article">
+          <h1 class="article--title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="article--description">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </article>
+        <footer class="card__footer">
+          <!--side A-->
+          <div class="side-a active">
+            <figure class="figure">
+              <img src="./images/avatar-michelle.jpg" alt="user image" />
+            </figure>
+            <div class="user__data">
+              <h2 class="user--name">Michelle Appleton</h2>
+              <span class="curr--data">28 Jun 2020</span>
+            </div>
+
+            <img
+              class="share--ico"
+              src="./images/icon-share.svg"
+              alt="share icon"
+            />
+          </div>
+          <!--side B-->
+          <div class="side-b">
+            <p class="share">Share</p>
+            <ul class="social__media-list">
+              <li class="list__item">
+                <img src="./images/icon-facebook.svg" alt="facebook" />
+              </li>
+
+              <li class="list__item">
+                <img src="./images/icon-twitter.svg" alt="twitter" />
+              </li>
+              <li class="list__item">
+                <img src="./images/icon-pinterest.svg" alt="pintrest" />
+              </li>
+            </ul>
+            <img
+              class="share--ico"
+              src="./images/icon-share.svg"
+              alt="share icon"
+            />
+          </div>
+        </footer>
+      </section>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
